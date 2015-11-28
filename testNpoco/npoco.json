@@ -1,0 +1,28 @@
+{
+  "classPrefix": "",
+  "classSuffix": "",
+  "schemaName": "npoco",
+  "includeViews": false,
+  "repoName": "PetaPocoDb",
+  "namespace": "NPoco",
+  "connectionStringName": "PetaPocoDb",
+  "trackModifiedColumns": false,
+  "generatePocos": true,
+  "generateOperations": true,
+  "generateCommon": true,
+  "generateFileName": "Database.cs",
+  "dalNamespace": "DAL",
+  "bllNamespace": "BLL",
+  "generate3TierArchitecture": true,
+  "outPath": "/Users/yangyin/work/github/npocoexample/testNpoco",
+  "database": {
+    "protocol": "mysql",
+    "query": {
+      "pool": true
+    },
+    "host": "localhost",
+    "database": "information_schema",
+    "user": "root",
+    "password": "123"
+  }
+}
